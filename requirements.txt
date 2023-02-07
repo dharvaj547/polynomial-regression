@@ -2,3 +2,4 @@ versioneer
 flake8
 numpy
 matplotlib
+pandas
