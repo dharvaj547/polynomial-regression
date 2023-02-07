@@ -13,7 +13,7 @@ def generate_data(num_points, noise_level=0.0):
 
 def main():
     # synthetically generate data
-    x, y = generate_data(100, noise_level=100)
+    x, y = generate_data(1000, noise_level=100)
     data = np.hstack((x, y))
     df = pd.DataFrame(data, columns=['x', 'y'])
     df.to_csv('data.csv', index=False)
