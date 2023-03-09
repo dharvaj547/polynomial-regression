@@ -14,6 +14,5 @@ The data for this project is generated using the 'generate_data.py' script. It g
 - Write some tests for once
 - Generate different sets of data (preferable ones that follow different degree polynomials)
 - Refactoring so everything is run from a single file
-- Finding a wll to live :)
 
 
